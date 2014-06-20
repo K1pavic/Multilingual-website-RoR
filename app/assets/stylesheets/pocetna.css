@@ -3,13 +3,7 @@ body {
 	margin: 0px !important;	
 }
 
-.container {
-	margin: 0px auto !important;
-	width: 960px !important;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-	/*box-shadow: 0 0  10px #777777;*/
-}
+
 
 .navbar {
 	padding-right: 50px;
@@ -20,15 +14,7 @@ body {
 	font-size: 10px;
 }
 
-.image_1 {
-    float: left;
-  	margin: 55px 2.5px 5px 10px;
-}
 
-#image_2 {
-    float: right;
-	margin: 55px 10px 55px 2.5px;
- }
 
 .logo_1 {
 	width: 335px;
