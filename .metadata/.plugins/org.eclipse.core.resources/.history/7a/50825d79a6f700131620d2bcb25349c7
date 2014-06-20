@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>Pavic Gradnja</title>
+		<meta name="description" content="Krovopokrivacki obrt, knauf, podkrovlje...">
+		<meta name="author" content="Kronos">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+		<%= stylesheet_link_tag    "uslugeisavjeti.css", media: "all", "data-turbolinks-track" => true %>
+		<%= stylesheet_link_tag    "bootstrap.min.css", media: "all", "data-turbolinks-track" => true %>
+		
+<!--		<link href="Usluge i Savjeti.css" type="text/css" rel="stylesheet" />
+		<link href = "css/bootstrap.min.css" rel = "stylesheet"/>		-->
+		
+	</head>
+
+	<body>
+		
+		<div class="container">
+			
+			<header class = "navbar navbar-inverse navbar-fixed-top" role="navigation">
+				
+			<div class="headcontainer">
+			
+			<a href = "pocetna" class = "navbar-brand">Pavić Gradnja <br> <p class="moto">KROV ZA CIJELI ŽIVOT</p> </br> </a>
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+			</button>
+			
+			<div class ="collapse navbar-collapse navHeaderCollapse">
+			<nav>
+				<ul class = "nav navbar-nav navbar-right" >
+					<li>  <a href="pocetna">Početna</a> </li>
+					<li> <a href="onama">O nama</a> </li>
+					<li class="active"> <a href="uslugeisavjeti">Usluge i Savjeti</a> </li>
+					<li> <a href="galerija">Galerija</a> </li>
+					<li> <a href="kontakt">Kontakt</a> </li>	
+				</ul>
+			</nav>
+			</div>
+			</div>
+			</header>
+			
+			<div class="head">
+				<h2>Usluge i Savjeti</h2>
+			</div>
+			
+			<div class="wrapp">
+				
+				<p class="intro">
+					Ovdje ćemo Vam pokazati koje usluge nudimo i dati neke savjete uz te usluge. Pokušati ćemo objasniti koje su važne stvari, 
+					koje manje važne. Na primjer, najvažnija stvar pri radovima na krovu ili pri suhoj gradnji jest izbor majstora. Majstor
+					se treba birati prema preporukama bivših investitora (kao kod svakog posla). Raspitajte se prije odbaria, sigurno će Vam 
+					se malo truda višestruko vratiti. Za dodatna pitanja nas kontaktirajte putem naše <a href="kontakt.html">kontakt</a> stranice.
+				</p>
+				
+				<h3>Krovopokrivački radovi</h3>
+				
+				<p class="roof_1">
+					
+					<ins><b>CRIJEP</b></ins></br><img src="Pictures/picture_1.jpg" class="img_1" alt="crijep"/>
+					Kod svake obnove krova ili izrade novog krova izbor <b>crijepa</b> jedan je od najzanimljivih izbora ili dilema za svakog
+					vlasnika. Da li je crijep pretežak po kvadratu, da li je dovoljno kvalitetan, koju boju uzeti, betonski ili glineni ili 
+					nešto treće...</br>
+					Naravno da se pri izboru crijepa najbolje posavjetovat s nekom stručnom osobom. Vrsta crijepa koja će se koristiti
+					ovisi o puno faktora, kao što su nagib krova, črvstoća konstrukcije samog krova, klimatski uvjeti, izgled itd. </br>
+					Kod izbora između betonskog i glinenog crijepa poznata je predrasuda da je glineni crijep lakši po kvadratu pa se zato
+					uzima za slabije krovne konstrukcije. Takve predrasude nisu točne što možemo potvrditi uz jednostavnu matematiku.
+					Težina crijepa se uvijek računa po kvadratu, biber crijep ima težinu od 2 kg po komadu, a u kvadrat ide cca. 35 komada. 
+					To znači da kvadrat bibera teži najmanje 70 kg po kvadratu i time zahtjeva i pojačanu krovnu konstrukciju, uz sve to
+					je i po cijeni najskuplji. </br>
+					Prosiječni betonski crijepovi teški su 4,5 kg po komadu i u kvadrat ide 10 komada. Ostali glineni crijepovi su po težini
+					jednaki, također oko 45 kg, stoga razlike u težini nema i to ne smije biti razlog davanje prednosti glinenom crijepu.
+				</br>
+			</br>
+		</br>
+				   <ins><b>KROVNA KONSTRUKCIJA</b></ins></br><img src="app/assets/Images/picture_2" class="img_1" alt="krovna konstrukcija"/>
+				   Prije obnavljanja ili izrade novog krova bitno je da majstor dođe i pregleda stanje krova i posebno obrati pažnju na krovne
+				   konstrukcije s unutarnje strane. Prije početka radova važno je da investitor radova zatraži od majstora preciznu ponudu u 
+				   kojoj trebaju biti navedene količine materijala s cijenama i troškovi krovopokivačkih i limarskih radova </br>
+				   Kod obnove starog krovišta ovisno o tome da li je krovište hrastove ili jelove građe obavezno je zaštiti jelovu građu
+				   sredstvima protiv pljesni, gljivica i crvice, dok kod hrastove građe to uglavnom nije potrebno. Kod jelove građe
+				   često se događa da je prvi par rogova sa svake strane natruo, to se sigurno tek vidi kada se crijep otkrije.
+				  </br>
+				 </br>
+				</br>
+				  <ins><b>PROZRAČAVANJE KROVIŠTA</b></ins></br> <%= image_tag("picture_3.jpg", :alt => "prozračavanje krovišta", :class => 'img_3') %>
+				  Sljedeća važna stvar je prozračavanje krovišta, pravilan izbor krovne folije i kontra letve. Pravilan odabir same
+				  visine kontra letve direktno utjeće na dugotrajnost kompletnog krovišta. Cirkulacija zraka između podloge i crijepa
+				  neophodna je, u suprotnom dolazi do ubraznog propadanja krovišta. Druge nuspojave pri lošem prozračavanju su
+				  luštanje crijepa zbog kondeziranja i time gubi na kvaliteti i dugovječnosti, letva na kojoj crijep leži trune
+				  i dolazi do opasnosti padanja crijepa s krova. Također dolazi do truljenja krovne folije koja kao takva više
+				  nema nikakvu funkciju. Iz svega ovoga možemo zaključiti da je to jako važan detalj u izradi ili obnovi svakog 
+				  krovišta.
+				 </br>
+			
+		</p>
+				<h3>Suha gradnja</h3>
+				
+				<p class="roof_2"> 	
+				Suha gradnja podrazumijeva uređenje potkrovlja, izolaciju potkrovlja mineralnom vunom (u pravilu) i izrade obloga
+				gips kartonskim pločama (knauf ili rigips). Ovdje je jako bitan odabir materijala (vodilica, ploča, glet masa i sl.).
+				Odabir jeftinijeg materijala donosi samo prividnu uštedu, jer je takav materijal uglavnom slabije kvalitete i više ga 
+				se troši. Na kraju radova dolazite do toga da na materijal potrošite jednako kao da ste uzeli malo skuplje i kvalitetnije,
+				a nemate jednaku kvalitetu. </br>
+				Kod izlorianja potkrovlja posebno je potrebno obratiti pozornost na pravilnu izradu parne brane (odabir odgovarajuće
+				folije za parnu branu).
+					
+				</p>
+			</br>
+				
+			</div>
+
+			
+			<footer class="navbar navbar-inverse navbar-fixed-bottom">
+
+				 <p class ="navbar-text"> &copy; All rights reserved | Kronos</p>
+			
+			</footer>	
+		
+		</div>
+			<script src = "http://code.jquery.com/jquery-1.10.2.min.js"></script>
+			<script src = "js/bootstrap.js"></script>
+		
+	</body>
+</html>

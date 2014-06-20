@@ -1,0 +1,20 @@
+class HomeController < ApplicationController
+  def pocetna
+  end
+
+  def onama
+  end
+
+  def uslugeisavjeti
+  end
+
+  def galerija
+  end
+
+  def kontakt
+  end
+end
+
+@images = [ "slide_1.jpg", "slide_2.jpg", "slide_3.jpg", "slide_4.jpg", "slide_5.jpg", "slide_6.jpg" ]
+
+

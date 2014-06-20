@@ -1,0 +1,52 @@
+body {
+	background-color: #3b3f3f !important;
+	margin: 0px !important;	
+}
+
+.container {
+	width: 960px !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.navbar {
+	padding-right: 50px;
+	padding-left: 10px;
+}
+
+.moto {
+	font-size: 10px;
+}
+
+.head {
+	margin: 60px 10px 15px 10px;
+	background-color: #222 !important;
+}
+
+h2 {
+   /* border-bottom: 1px solid black;*/
+    padding: 10px 0 10px 15px;
+    color: #5e5e5e !important;
+   /* margin: 0 300px 0 10px;*/
+}
+
+.wrapp {
+	background-color: #222 !important;
+	height: 600px;
+	margin: 0 10px 55px 10px; 
+}
+
+.text {
+    color: #5e5e5e;
+    padding: 30px;
+    text-align: justify;
+}
+  
+.img_align{
+	float: right;
+	margin-left: 10px;
+	padding: 5px;
+	width: 300px;
+
+}
+
