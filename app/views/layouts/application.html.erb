@@ -28,6 +28,33 @@
 	</head>
 
 	<body>
+		<div class="container">
+			
+			<header class = "navbar navbar-inverse navbar-fixed-top" role="navigation">
+				
+			<div class="headcontainer">
+			
+			<a href = "pocetna" class = "navbar-brand">Pavić Gradnja <br> <p class="moto">KROV ZA CIJELI ŽIVOT</p> </br> </a>
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+			<span class = "icon-bar"></span>
+			</button>
+			
+			<div class ="collapse navbar-collapse navHeaderCollapse">
+			<nav>
+				<ul class = "nav navbar-nav navbar-right" >
+					<li class="<%= is_active_path?(home_path) %>">  <%= link_to "Početna", home_path %> </li>
+					<li class="<%= is_active_path?(onama_path) %>">  <%= link_to "O nama", onama_path %> </li>
+					<li class="<%= is_active_path?(usluge_path) %> ">  <%= link_to "Usluge i Savjeti", usluge_path %> </li>
+					<li class="<%= is_active_path?(galerija_path) %> ">  <%= link_to "Galerija", galerija_path %> </li>
+					<li class="<%= is_active_path?(kontakt_path) %>">  <%= link_to "Kontakt", kontakt_path %> </li>
+			
+				</ul>
+			</nav>
+			</div>
+			</div>
+			</header>
 		<%= yield %>
 
 		

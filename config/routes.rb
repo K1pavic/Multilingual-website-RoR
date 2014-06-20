@@ -1,9 +1,9 @@
 Zavrsni::Application.routes.draw do
-  get "home/pocetna"
-  get "home/onama"
-  get "home/uslugeisavjeti"
-  get "home/galerija"
-  get "home/kontakt"
+  get "home/pocetna", as: :home
+  get "home/onama", as: :onama
+  get "home/uslugeisavjeti", as: :usluge
+  get "home/galerija", as: :galerija
+  get "home/kontakt", as: :kontakt
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
