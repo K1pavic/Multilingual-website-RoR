@@ -17,10 +17,9 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+		<%= stylesheet_link_tag    "pocetna.css", media: "all", "data-turbolinks-track" => true %>
+		<%= stylesheet_link_tag    "bootstrap.min.css", media: "all", "data-turbolinks-track" => true %>
 
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
 
 <!--		<link href="pocetna.css" type="text/css" rel="stylesheet" />
 		<link href = "css/bootstrap.min.css" rel = "stylesheet"/>		-->
@@ -50,7 +49,9 @@
 <html>
 <head>
   <title>Zavrsni</title>
-
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
 </head>
 <body>
 
