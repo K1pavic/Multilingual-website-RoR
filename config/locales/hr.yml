@@ -19,5 +19,11 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-hr:
-  naslov: "Usluge i Savjeti"
+hr: 
+  uslugeisavjeti:
+    
+    intro_html: Ovdje ćemo Vam pokazati koje usluge nudimo i dati neke savjete uz te usluge. Pokušati ćemo objasniti koje su važne stvari,
+           koje manje važne. Na primjer, najvažnija stvar pri radovima na krovu ili pri suhoj gradnji jest izbor majstora. Majstor
+           se treba birati prema preporukama bivših investitora (kao kod svakog posla). Raspitajte se prije odbaria, sigurno će Vam
+           se malo truda višestruko vratiti. Za dodatna pitanja nas kontaktirajte putem naše <a href="kontakt.html">kontakt</a> stranice.
+    

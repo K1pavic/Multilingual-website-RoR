@@ -21,18 +21,18 @@ body {
 h2 {
    /* border-bottom: 1px solid black;*/
     padding: 10px 0 10px 15px;
-    color: #5e5e5e !important;
+    color: #777 !important;
    /* margin: 0 300px 0 10px;*/
 }
 
 .wrapp {
 	background-color: #222 !important;
-	height: 600px;
+	height: auto;
 	margin: 0 10px 55px 10px; 
 }
 
 .text {
-    color: #5e5e5e;
+    color: #888;
     padding: 30px;
     text-align: justify;
 }

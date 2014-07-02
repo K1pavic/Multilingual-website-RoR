@@ -3,7 +3,18 @@ body {
 	margin: 0px !important;	
 }
 
+.col-md-4 {
+	margin-top: 55px !important;
+	margin-bottom: 55px !important;
+	padding-right: 2.5px !important;
+}
 
+.col-md-8 {
+	margin-top: 55px !important;
+	margin-bottom: 55px !important;
+	padding-left: 2.5px;
+	padding-right: 28px !important;
+}
 
 .navbar {
 	padding-right: 50px;
@@ -14,38 +25,32 @@ body {
 	font-size: 10px;
 }
 
-
-
-.logo_1 {
-	width: 335px;
-	height: 296px;
-} 
-
-.logo_2 {
-	width: 600px;
-	height: 540px;
+.logo1{
+	width: 297px;
+	height: 275px;
+	margin-bottom: 5px;
 }
-
 
 .entry {
 	clear: left;
-   	margin: 0 2.5px 55px 10px;
     background-color: #222;
-    font-size: 12px;
-  	width: 335px;
+    width: 297px;
+    height: 260px;
 }
+
 .entry ul {
-	padding: 0 25px 0 25px;
+	padding: 10px 25px 0 25px;
 	margin-bottom: 0 !important;
 }
 
 .entry ul li {
- 	color: /*#B8860B*/ #fff;	
+ 	color: #999 !important;	
+ 	font-size: 12px;
  	padding: 15px 0px 15px 25px;
  	border-bottom: 1px solid black;
- 	width: 295px;
 }
 
 .last_li {
     border-bottom: none !important; 
 }
+

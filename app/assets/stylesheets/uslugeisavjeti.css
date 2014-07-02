@@ -21,7 +21,7 @@ body {
 h2 {
   /* border-bottom: 1px solid black;*/
    padding: 10px 0 10px 15px;
-   color: #5e5e5e !important;  
+   color: #777 !important;  
   /* margin: 0 300px 0 10px;*/
   }
 
@@ -32,18 +32,18 @@ h2 {
 }
 
 .intro {
-    color: #5e5e5e;
+    color: #888;
     padding: 30px;
     text-align: justify;
 }
 
 h3 {
     padding: 0 20px 20px 20px;
-    color: #5e5e5e !important;
+    color: #777 !important;
 }
 
 .roof_1 {
-    color: #5e5e5e;
+    color: #888;
     padding: 0 30px 30px 30px;
     text-align: justify;
  }
@@ -57,7 +57,7 @@ h3 {
 }
 
 .roof_2 {
-    color: #5e5e5e;
+    color: #888;
     padding: 0 30px 30px 30px;
     text-align: justify;
 }
