@@ -1,28 +1,10 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+www.pavic-gradnja.hr
 
-Things you may want to cover:
+This webpage is made using the Ruby on Rails MVC framework. The framework is firstly used to deal with the two language option and gives an overall DRY code. By changing the language on the webpage, the rails framework refreshes just the text without refreshing the whole page, making the whole page much faster and more user friendlier. The rails framework allows you to make fast changes on the website because it has a main .html document where it stores parts that don't change, like header and footer of the page in this case. The other .html files don't have the header and footer parts, they just inherit it from the main .html file, making the whole web page DRY and faster.
 
-* Ruby version
+The web page is also responsive deppending on the screen size. This is done using the bootstrap framework.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Ruby 1.9.3 
+Rails 4.0.0
