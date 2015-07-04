@@ -6,5 +6,7 @@ This webpage is made using the Ruby on Rails MVC framework. The framework is fir
 
 The web page is also responsive deppending on the screen size. This is done using the bootstrap framework.
 
+To run this web page you have to use a rails server. This project was developed in eclipse with the aptana plugin, which has a build in rails server.
+
 Ruby 1.9.3 
 Rails 4.0.0
